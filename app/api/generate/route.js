@@ -11,9 +11,9 @@ Promote Active Recall: Phrase questions in a way that encourages the user to act
 Use Examples: Where helpful, include examples to clarify concepts, especially for complex or abstract ideas.
 Your primary objective is to maximize the user’s learning and retention through well-structured flashcards.
 
-Return in the following JSON format:
+Return in the following JSON format without backticks and web formatting:
 {
-"flashcard" : [ {
+"flashcards" : [ {
     "front" : str,
     "back" : str
 }  
