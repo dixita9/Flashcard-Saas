@@ -39,8 +39,5 @@ export async function POST(req){
     const flashcards = JSON.parse(text)
 
 
-    return NextResponse.json({
-        "message" : flashcards
-    })
-
+    return NextResponse.json(flashcards);
 }
